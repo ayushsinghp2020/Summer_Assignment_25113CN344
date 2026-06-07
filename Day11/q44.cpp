@@ -8,7 +8,7 @@ long long factorial(int n){
         fact *= i;
     }
     return fact;
-
+}
 int main(){
     int num;
 
