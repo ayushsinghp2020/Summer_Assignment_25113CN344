@@ -13,8 +13,20 @@ int main(){
     for(int i=0; i<n; i++) {
        cin>>arr[i];
     }
-        cout<<"Reversed array: ";
-    for(int i=n-1; i>=n; i--) {
+    int j=0; 
+
+    for(int i=0; i<n; i++) {
+       if(arr[i] != 0) {
+            arr[j]=arr[i];
+            j++;
+       }
+    }
+    while(j<n) {
+        arr[j]=0;
+        j++;
+    }
+    cout<<"Array after moving zeroes to the end: ";
+    for(int i=0; i<n; i++) {
         cout<<arr[i]<<" ";
     }
     return 0;
