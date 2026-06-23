@@ -1,4 +1,4 @@
-//program to Create number guessing game.
+//program to Create number guessing game:
 
 
 #include <iostream>

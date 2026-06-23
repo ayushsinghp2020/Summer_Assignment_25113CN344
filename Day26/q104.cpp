@@ -1,4 +1,4 @@
-//program to Create quiz application
+//program to Create quiz application:
 
 
 #include <iostream>

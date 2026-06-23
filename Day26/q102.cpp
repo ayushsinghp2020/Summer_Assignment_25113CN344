@@ -1,4 +1,4 @@
-//program to Create voting eligibility system.
+//program to Create voting eligibility system:
 
 
 #include <iostream>

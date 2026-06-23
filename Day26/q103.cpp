@@ -1,4 +1,4 @@
-//program to Create ATM simulation
+//program to Create ATM simulation:
 
 
 #include <iostream>
